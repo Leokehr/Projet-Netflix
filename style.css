@@ -2,7 +2,9 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("ressources/img/background-black.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 img{
     width: 200px;
@@ -25,7 +27,33 @@ h2{
     text-align: center;
     text-transform: uppercase;
     color: rgb(219, 207, 207);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
 }
 p{
     color: white;
+}
+#profile{
+    background-color: #141414;
+}
+#home{
+    background-image: url("ressources/img/background-black.jpg");
+}
+.container{
+    margin: 0 20%;
+}
+.row{
+    display: flex;
+}
+.profile{
+    margin: 0 10px;
+}
+.row img{
+    width: 100%;
+}
+.row p{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    opacity: .6;
 }
